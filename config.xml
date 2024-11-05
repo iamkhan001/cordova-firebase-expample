@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.anbmobile.Timesheet" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>FirebaseExample</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <preference name="android-targetSdkVersion" value="34" /> 
+
+    <!-- <platform name="android">
+        <preference name="GradlePluginGoogleServicesVersion" value="4.3.15" />
+        <config-file parent="/resources" target="app/src/main/res/values/colors.xml">
+            <color name="custom_primary">#FF007CD3</color>
+        </config-file>
+        <config-file parent="/manifest/application" target="AndroidManifest.xml">
+            <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/custom_primary" />
+        </config-file>
+    </platform> -->
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
